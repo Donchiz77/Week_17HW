@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
+  "engines": {
+    "node": "^14.17.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
@@ -16,4 +19,5 @@
     "mongoose": "^5.3.16",
     "morgan": "^1.9.1"
   }
+  
 }
